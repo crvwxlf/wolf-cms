@@ -1,0 +1,28 @@
+# Ignore node_modules folders
+**/node_modules/
+
+# Ignore build files
+**/dist/
+**/build/
+**/coverage/
+**/logs/
+**/.nyc_output/
+**/.idea/
+**/.vscode/
+**/.DS_Store
+
+# Ignore local development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore MongoDB data folder
+**/mongodb/data/
+
+# Ignore logs for MongoDB and Node.js
+**/mongodb/mongod.log
+**/app/backend/logs/
+
+# Ignore production build files
+**/app/frontend/dist/
