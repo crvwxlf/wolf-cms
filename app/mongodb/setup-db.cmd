@@ -13,7 +13,7 @@ set DOCKER_NAME="mongo-server"
 echo Setup container
 
 echo Création du conteneur docker mongo
-docker run -it --name "%DOCKER_NAME%" -p %MONGO_EXPOSE_PORT%:27017 -d mongo
+docker run -d --name "%DOCKER_NAME%" -p %MONGO_EXPOSE_PORT%:27017 -d mongo
 
 timeout /T 5 /NOBREAK
 
