@@ -26,3 +26,6 @@
 
 # Ignore production build files
 **/app/frontend/dist/
+
+#Ignore log file
+**/app/**/*.log
